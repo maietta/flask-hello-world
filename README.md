@@ -40,8 +40,8 @@ This shows a clear directory structure with comments explaining the purpose of e
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/maietta/python-dockerized-website.git
-    cd python-dockerized-website
+    git clone https://github.com/maietta/flask-hello-world.git
+    cd flask-hello-world
     ```
 
 2. **Build the Docker image**:
