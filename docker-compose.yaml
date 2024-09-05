@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+      - ./templates:/app/templates  # Ensure templates are mounted
+      - ./static:/app/static        # Ensure static files are mounted
